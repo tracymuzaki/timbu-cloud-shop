@@ -1,0 +1,13 @@
+import React from "react";
+import "./Checkout.css";
+
+const Checkout = () => {
+  return (
+    <div className="checkout">
+      <h1>Checkout Page</h1>
+      <p>Your cart is currently empty.</p>
+    </div>
+  );
+};
+
+export default Checkout;
