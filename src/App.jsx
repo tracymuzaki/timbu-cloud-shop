@@ -5,6 +5,7 @@ import Shop from "./components/Shop";
 import Checkout from "./components/Checkout";
 import Footer from "./components/Footer";
 import "./App.css";
+import HomePage from "./components/HomePage";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Shop />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
         <Footer />
