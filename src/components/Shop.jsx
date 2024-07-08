@@ -59,15 +59,17 @@ const products = [
     price: "$20",
     image: "link-to-image",
   },
-  // Add more products as needed
 ];
 
 const Shop = () => {
   return (
     <div className="shop">
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))}
+      <h1>Our Products</h1>
+      <div className="product">
+        {products.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -7,7 +7,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">Timbu Cloud Shop</div>
       <div className="navbar-links">
-        <Link to="/">Shop</Link>
+        <Link to="/">Home</Link>
+        <Link to="/shop">Products</Link>
         <Link to="/checkout">Checkout</Link>
       </div>
     </nav>

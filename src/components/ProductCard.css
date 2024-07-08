@@ -2,8 +2,10 @@
   background-color: #d9d9d9;
   border: none;
   border-radius: 3px;
+  width: 233.45px;
+  height: 348.24px;
   padding: 15px;
-  margin: 15px;
+  margin: 10px;
   text-align: center;
   transition: box-shadow 0.3s ease-in-out;
 }
