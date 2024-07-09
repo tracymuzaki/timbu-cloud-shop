@@ -1,9 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFilter,
-  faSearch,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFilter, faSearch } from "@fortawesome/free-solid-svg-icons";
 import "../component.css/Sidebar.css";
 
 const Sidebar = () => {
@@ -11,17 +8,16 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-section">
         <h2>
-          <FontAwesomeIcon icon={faFilter} /> Filter
+          <FontAwesomeIcon icon={faFilter} style={{ color: "#bed123" }} />
+          Filter
         </h2>
       </div>
       <div className="sidebar-section">
+        <h3>Brand</h3>
         <div className="search-bar">
           <FontAwesomeIcon icon={faSearch} />
           <input type="text" placeholder="Search..." />
         </div>
-      </div>
-      <div className="sidebar-section">
-        <h3>Brand</h3>
         <div>
           <label>
             <input type="checkbox" /> Apple
@@ -45,6 +41,10 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-section">
         <h3>Product Type</h3>
+        <div className="search-bar">
+          <FontAwesomeIcon icon={faSearch} />
+          <input type="text" placeholder="Search..." />
+        </div>
         <div>
           <label>
             <input type="checkbox" /> Phone Cases
@@ -68,6 +68,10 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-section">
         <h3>Price (Naira)</h3>
+        <div className="search-bar">
+          <FontAwesomeIcon icon={faSearch} />
+          <input type="text" placeholder="Search..." />
+        </div>
         <div>
           <label>
             <input type="checkbox" /> 100 - 500

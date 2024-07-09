@@ -1,10 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSearch,
-  faUser,
-  faShoppingCart,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 import "../component.css/Navbar.css";
 
 const Navbar = () => {
