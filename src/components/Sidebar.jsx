@@ -8,19 +8,19 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-section">
         <h2>
-          <FontAwesomeIcon icon={faFilter} style={{ color: "#bed123" }} />
-          Filter
+          <FontAwesomeIcon icon={faFilter} className="filter-icon" />
+          <span>Filter</span>
         </h2>
       </div>
       <div className="sidebar-section">
         <h3>Brand</h3>
         <div className="search-bar">
-          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faSearch} className="search-icon" />
           <input type="text" placeholder="Search" />
         </div>
         <div>
           <label>
-            <input type="checkbox" /> Apple
+            <input type="checkbox" className="checkbox-element" /> Apple
           </label>
         </div>
         <div>
@@ -42,7 +42,7 @@ const Sidebar = () => {
       <div className="sidebar-section">
         <h3>Product Type</h3>
         <div className="search-bar">
-          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faSearch} className="search-icon" />
           <input type="text" placeholder="Search" />
         </div>
         <div>
@@ -67,9 +67,11 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebar-section">
-        <h3>Price (Naira)</h3>
+        <h3>
+          Price <span className="currency-symbol">₦</span>
+        </h3>
         <div className="search-bar">
-          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faSearch} className="search-icon" />
           <input type="text" placeholder="Search" />
         </div>
         <div>

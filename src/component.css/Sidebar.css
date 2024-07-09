@@ -1,48 +1,106 @@
 .sidebar {
-    width: 250px;
-    padding: 40px 15px;
-    background-color: #f5f5f5;
-    position: fixed;
-    top: 60px; /* Adjust based on the navbar height */
-    bottom: 0;
-    overflow-y: auto;
-    border-right: 1px solid #ddd;
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  width: 177px;
+  padding: 40px 21px;
+  background-color: #fff;
+  position: fixed;
+  top: 174px;
+  left: 105px;
+  bottom: 0;
+  overflow-y: auto;
+  border-right: 1px solid #d9d9d9cc;
 }
 
-.sidebar-section {
-    margin-bottom: 20px;
-}
-
-.sidebar-section h2, .sidebar-section h3 {
-    margin: 0 0 10px;
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
+.sidebar-section h2,
+.sidebar-section h3 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-align: left;
+  color: #213083;
 }
 
 .sidebar-section h2 {
-    font-size: 1.5em;
+  width: 47px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 23.86px;
+}
+
+.sidebar-section h3 {
+  height: 21px;
+  font-size: 18px;
+  line-height: 21.47px;
+}
+
+.sidebar-section h2 .filter-icon,
+.sidebar-section h3 .currency-symbol {
+  color: #bed123;
+}
+
+.sidebar-section h2 .filter-icon {
+  width: 25.09px;
+  height: 31.36px;
+  margin-right: 11px;
+}
+
+.sidebar-section h3 .currency-symbol {
+  width: 12px;
+  height: 12px;
+  top: -5px;
+  left: 7px;
+  position: relative;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #bed123;
+  border-radius: 5px;
+  width: 95px;
+  height: 14px;
+  margin-bottom: 3px;
+}
+
+.search-bar .search-icon {
+  width: 12px;
+  height: 12px;
+  top: 263px;
+  left: 113px;
+  padding: 1.5px 1.98px 1.97px 1.5px;
 }
 
 .search-bar input {
-    border: none;
-    outline: none;
-    margin-left: 10px;
-    width: 100%;
+  width: 60px;
+  height: 12px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.search-bar input::placeholder {
+  font-size: 10px;
+  color: #7d767680;
 }
 
 .sidebar-section label {
-    display: block;
-    margin: 5px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: #4b4646;
 }
 
+.sidebar-section label input[type="checkbox" i] {
+  cursor: pointer;
+  margin: 3px;
+  padding: initial;
+  border: 2px solid #bed123;
+  border-radius: 3px;
+  width: 13px;
+  height: 13px;
+}

@@ -1,11 +1,58 @@
-/* .product-card {
-  width: 233.45px;
-  height: 348.24px;
-} */
+.product-card {
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  text-align: left;
+  width: 236.49px;
+  border: none;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease-in-out;
+}
 
-/* .product-card button {
-  width: 155px;
-  height: 40px;
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 246.16px;
+  width: 238.92px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.product-card .description {
+  width: 215px;
+  height: 54px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: #7d7676;
+}
+
+.product-card .price {
+  display: flex;
+  width: 41px;
+  height: 10px;
+  color: #213083;
+  font-weight: 600;
+  line-height: 16.7px;
+}
+
+.product-card .price span {
+  display: inline;
+  margin-right: 4px;
+}
+
+.product-card button {
+  display: block;
+  margin: 12px auto;
+  width: 157.02px;
+  height: 40.52px;
   line-height: 19.09px;
   font-weight: 600;
   font-size: 16px;
@@ -19,43 +66,4 @@
 .product-card button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #bed123;
-} */
-
-/* ############################################ */
-.product-card {
-  background-color: #d9d9d9;
-  border: none;
-  border-radius: 3px;
-  padding: 15px;
-  margin: 10px;
-  text-align: center;
-  width: calc(33% - 40px); /* Adjust for three cards per row with some margin */
-  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.product-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.product-card img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.product-card h3 {
-  margin: 10px 0;
-  font-size: 1.2em;
-}
-
-.product-card p {
-  margin: 10px 0;
-  color: #666;
-}
-
-.product-card .price {
-  font-size: 1.5em;
-  color: #333;
-  margin: 10px 0;
 }
