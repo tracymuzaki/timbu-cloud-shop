@@ -16,7 +16,7 @@ const Sidebar = () => {
         <h3>Brand</h3>
         <div className="search-bar">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search" />
         </div>
         <div>
           <label>
@@ -43,7 +43,7 @@ const Sidebar = () => {
         <h3>Product Type</h3>
         <div className="search-bar">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search" />
         </div>
         <div>
           <label>
@@ -70,7 +70,7 @@ const Sidebar = () => {
         <h3>Price (Naira)</h3>
         <div className="search-bar">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search" />
         </div>
         <div>
           <label>
