@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFilter,
   faSearch,
-  faUser,
-  faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 import "../component.css/Sidebar.css";
 
