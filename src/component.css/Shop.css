@@ -1,0 +1,16 @@
+.shop-container {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 250px; /* Adjust based on the sidebar width */
+    flex-grow: 1;
+    margin-top: 120px; /* Adjust for spacing to account for the height of the main and second navbar */
+}
+
+.shop {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

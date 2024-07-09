@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #213083;
+  border-bottom: 1px solid #d9d9d9b3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-left h3,
+.navbar-right svg {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  text-align: center;
+  flex-grow: 1;
+}

@@ -1,0 +1,27 @@
+.second-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-top: 60px; /* Adjust to fit below the main navbar */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.second-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.second-navbar li {
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.second-navbar li:hover {
+    background-color: #ddd;
+}

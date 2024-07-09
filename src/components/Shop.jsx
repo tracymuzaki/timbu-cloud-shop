@@ -1,6 +1,8 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import "./Shop.css";
+import Sidebar from "./Sidebar";
+import SecondNavbar from "./SecondNavbar";
+import "../component.css/Shop.css";
 
 const products = [
   {
@@ -63,12 +65,15 @@ const products = [
 
 const Shop = () => {
   return (
-    <div className="shop">
-      <h1>Our Products</h1>
-      <div className="product">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+    <div className="shop-container">
+      <Sidebar />
+      <div className="main-content">
+        <SecondNavbar />
+        <div className="shop">
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
       </div>
     </div>
   );
