@@ -20,7 +20,7 @@ const Sidebar = () => {
         </div>
         <div>
           <label>
-            <input type="checkbox" className="checkbox-element" /> Apple
+            <input type="checkbox"/> Apple
           </label>
         </div>
         <div>

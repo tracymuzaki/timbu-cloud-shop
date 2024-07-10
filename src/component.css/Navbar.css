@@ -2,32 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   background-color: #fff;
-  color: #213083;
   border-bottom: 1px solid #d9d9d9b3;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  padding-top: 69px !important;
 }
 
-.navbar-left,
-.navbar-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+/* sdfghjkl;kjhyuiouytrewtyu */
+.navbar-brand img {
+  width: 90.95px;
+  height: 27.07px;
+  margin: 0 50px;
 }
 
-.navbar-left h3,
-.navbar-right svg {
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: #213083;
+  font-weight: 600;
+  line-height: 19.09px;
   cursor: pointer;
-  font-size: 1.2em;
 }
 
-.navbar-logo {
-  font-size: 1.5em;
-  text-align: center;
-  flex-grow: 1;
+.navbar-nav .nav-item .nav-link svg {
+  width: 18.45px;
+  height: 18.46px;
+  top: 3.24px;
+  left: 3.24px;
 }
